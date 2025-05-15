@@ -72,13 +72,13 @@ const App = () => {
           <div className="inner-left-box">
             <div className="logo">
               <img src={logo} alt="logo" />
-              <h4>AI-React</h4>
+              <h4>ImageInsight</h4>
             </div>
 
             <div className="heading">
               <h2>AI-Powered Fun with React</h2>
               <h6>Let's Play Together!</h6>
-            </div>
+          </div>
             {values.image && (
               <span style={{ color: "darkblue" }}>
                 File: {values.image.name}
